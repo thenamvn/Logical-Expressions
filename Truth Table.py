@@ -44,9 +44,9 @@ def draw_truth_table(expression):
 
 # Get user input for the logic expression
 while True:
-    user_input = input("Nhập biểu thức mạch logic (or 'exit' to close): ")
+    user_input = input("Enter Logical Expression (or 'exit' to close): ")
     if user_input.lower() == 'exit':
         break
     else:
-        print("Bảng chân lí:")
+        print("Truth Table:")
         draw_truth_table(user_input)
