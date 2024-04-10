@@ -35,4 +35,4 @@ while True:
         break
     else:
         simplified_expression = simplify_expression(user_input)
-        print("Simplifying Logic Expressions:", simplified_expression)
+        print("Simplified Logic Expressions:", simplified_expression)
