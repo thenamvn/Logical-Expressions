@@ -30,7 +30,7 @@ def simplify_expression(expression):
 # Nhập biểu thức từ người dùng
 
 while True:
-    user_input = input("Enter Logic Expressions (or 'exit' to close): ")
+    user_input = input("Enter Logical Expression (or 'exit' to close): ")
     if user_input.lower() == 'exit':
         break
     else:
