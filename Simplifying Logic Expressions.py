@@ -30,9 +30,9 @@ def simplify_expression(expression):
 # Nhập biểu thức từ người dùng
 
 while True:
-    user_input = input("Nhập biểu thức mạch logic (or 'exit' to close): ")
+    user_input = input("Enter Logic Expressions (or 'exit' to close): ")
     if user_input.lower() == 'exit':
         break
     else:
         simplified_expression = simplify_expression(user_input)
-        print("Biểu thức đã được rút gọn:", simplified_expression)
+        print("Simplifying Logic Expressions:", simplified_expression)
